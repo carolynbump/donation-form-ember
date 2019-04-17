@@ -1,0 +1,58 @@
+@import 'colors';
+
+body {
+  background-color: $ocean-20;
+  font-family: 'IBM Plex Sans', sans-serif;
+}
+
+.form-wrapper {
+  width: 475px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 80px;
+
+  .form-card {
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.04);
+    border: none;
+    border-radius: 8px;
+    padding: 40px 25px;
+    background-color: white;
+  }
+
+  h2 {
+    font-family: 'Poppins';
+    margin-top: 0px;
+  }
+
+  .input-wrapper {
+    display: flex;
+
+    button {
+      width: 20%;
+      border-radius: 2px;
+      text-align: center;
+      height: 50px;
+      border-radius: 6px;
+      border-top-left-radius: 0px;
+      border-bottom-left-radius: 0px;
+    }
+
+    input[type="number"] {
+      height: 50px;
+      border-radius: 6px;
+      border-top-right-radius: 0px;
+      border-bottom-right-radius: 0px;
+      border: solid 1px $slate-40;
+      padding-left: 20px;
+      width: 80%;
+    }
+  }
+}
+
+.bold {
+  font-weight: 900;
+}
+
+
+// #123891
+// against slate-40

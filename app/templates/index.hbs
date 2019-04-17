@@ -1,0 +1,15 @@
+{{outlet}}
+
+<div class="form-wrapper">
+
+  <div class="form-card">
+    <h2>Only {{model.event.daysLeft}} days left to fund this project.</h2>
+
+    <p>Join the <span class="bold">{{model.event.totalDonors}}</span> other donors who have already supported this project.</p>
+
+    <div class="input-wrapper">
+      {{input type="number" value=model.donationValue}}
+      <button {{action "submitDonation"}}>Give Now</button>
+    </div>
+  </div>
+</div>
