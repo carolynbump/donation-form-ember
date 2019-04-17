@@ -11,6 +11,10 @@ body {
   margin-left: auto;
   margin-top: 80px;
 
+  @media only screen and (max-width: 600px) {
+    width: 100%;
+  }
+
   .status-bar {
     position: relative;
     width: 100%;
