@@ -44,8 +44,7 @@ module.exports = function(environment) {
   }
 
   if (environment === 'production') {
-    ENV.rootURL = '/ember-flows-generator/';
-    ENV.location = 'hash';
+    // here you can enable a production-specific feature
   }
 
   return ENV;
