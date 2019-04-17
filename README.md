@@ -1,6 +1,6 @@
 # donation-form
 
-This is a donation form built in Ember.js.
+This is a donation form built in Ember.js. The javascript functionality can be found in the index.js route and controller. 
 
 ## Prerequisites
 
