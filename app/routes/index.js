@@ -4,9 +4,10 @@ export default Route.extend({
   model() {
     return {
       event: {
-        daysLeft: 4,
-        totalDonors: 11,
-        goal: 5000
+        daysLeft: 'four',
+        totalDonors: 0,
+        goal: 5000,
+        totalDonationSum: 0
       },
       donationValue: 0
     }
